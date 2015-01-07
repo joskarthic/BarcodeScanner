@@ -39,8 +39,8 @@ public final class CameraManager {
 
   private static final String TAG = CameraManager.class.getSimpleName();
 
-  private static final int MIN_FRAME_WIDTH = 540;
-  private static final int MIN_FRAME_HEIGHT = 500;
+  private static final int MIN_FRAME_WIDTH = 1540;
+  private static final int MIN_FRAME_HEIGHT = 1500;
   private static final int MAX_FRAME_WIDTH = 1600;
   private static final int MAX_FRAME_HEIGHT = 1400;
 
@@ -88,8 +88,8 @@ public final class CameraManager {
       configManager.initFromCameraParameters(theCamera);
       if (requestedFramingRectWidth > 0 && requestedFramingRectHeight > 0) {
         setManualFramingRect(requestedFramingRectWidth, requestedFramingRectHeight);
-        requestedFramingRectWidth = 2200;
-        requestedFramingRectHeight = 2000;
+        requestedFramingRectWidth = 0;
+        requestedFramingRectHeight = 0;
       }
     }
 
