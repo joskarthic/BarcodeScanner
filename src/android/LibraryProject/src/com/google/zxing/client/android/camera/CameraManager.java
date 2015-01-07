@@ -88,8 +88,8 @@ public final class CameraManager {
       configManager.initFromCameraParameters(theCamera);
       if (requestedFramingRectWidth > 0 && requestedFramingRectHeight > 0) {
         setManualFramingRect(requestedFramingRectWidth, requestedFramingRectHeight);
-        requestedFramingRectWidth = 1200;
-        requestedFramingRectHeight = 1000;
+        requestedFramingRectWidth = 2200;
+        requestedFramingRectHeight = 2000;
       }
     }
 
