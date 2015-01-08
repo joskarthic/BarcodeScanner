@@ -23,9 +23,11 @@
                android:layout_height="fill_parent"/>
 
   <com.google.zxing.client.android.ViewfinderView
+      android:layout_marginLeft="120dip"
       android:id="@+id/viewfinder_view"
       android:layout_width="fill_parent"
-      android:layout_height="fill_parent"/>
+      android:layout_height="fill_parent"
+      android:background="@color/transparent"/>
 
   <LinearLayout android:id="@+id/result_view"
                 android:orientation="vertical"
