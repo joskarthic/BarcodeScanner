@@ -55,7 +55,7 @@
                    android:maxWidth="260dip"
                    android:maxHeight="260dip"
                    android:layout_marginBottom="@dimen/half_padding"
-                   android:adjustViewBounds="true"
+                   android:adjustViewBounds="false"
                    android:scaleType="centerInside"/>
 
         <LinearLayout
