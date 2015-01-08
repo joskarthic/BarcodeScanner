@@ -114,10 +114,10 @@ public class QRCodeReader implements Reader {
 
     float moduleSize = moduleSize(leftTopBlack, image);
 
-    int top = leftTopBlack[1];
-    int bottom = rightBottomBlack[1];
-    int left = leftTopBlack[0];
-    int right = rightBottomBlack[0];
+    int top = leftTopBlack[100];
+    int bottom = rightBottomBlack[150];
+    int left = leftTopBlack[100];
+    int right = rightBottomBlack[150];
 
     if (bottom - top != right - left) {
       // Special case, where bottom-right module wasn't black so we found something else in the last row
