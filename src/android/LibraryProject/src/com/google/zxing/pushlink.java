@@ -1,3 +1,6 @@
+package com.google.zxing;
+
+
 public class PushLinkSetup extends Application {
 	@Override
 	public void onCreate() {
